@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'comments/index'
+
+  get 'users/index'
+
+  get 'posts/index'
+
   get 'user/index'
 
   get 'index/sessions'
