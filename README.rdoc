@@ -1,0 +1,39 @@
+== README
+Build a basic blogging app in Rails.
+
+There should be a User, Post, and Comment model.
+
+The app should have similar functionality to Tumblr - users can login, write posts, comment on other users' posts, etc.
+
+Follow the same process as with the micro-blogging app: - Sketch out the way your app will look - Create a basic repo and push to GitHub. Remember to make frequent commits along the way.
+
+
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
