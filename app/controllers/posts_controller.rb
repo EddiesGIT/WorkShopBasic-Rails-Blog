@@ -3,11 +3,15 @@ class PostsController < ApplicationController
   end
 end
 
-def create
-end 
 
 def show
 end
+
+def new
+end
+
+def create
+end 
 
 def destroy
 end
