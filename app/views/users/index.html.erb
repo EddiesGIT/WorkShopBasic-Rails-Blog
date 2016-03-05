@@ -1,3 +1,18 @@
-<h1>Welcome paige</h1>
+<h1>Welcome page</h1>
 
 <h2>Lets get started....</h2>
+
+
+<%= link_to "Create Account", new_user_path %>
+
+
+<p>Sign in</p>
+	<%= form_tag sessions_path do %>
+		<%= label_tag :user_name %>
+		<%= text_field_tag :user_name %><br>
+
+		<%= label_tag :password %>
+		<%= password_field_tag :password %><br>
+
+		<%= submit_tag "Sign In" %>
+	<% end %>
